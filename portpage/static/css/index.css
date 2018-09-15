@@ -52,6 +52,15 @@ shirt #c1e0f7
   margin-top: 20px;
   font-size: 20px;
 }
+.icons a:hover{
+  color: #e0acd5;
+  text-decoration: none;
+  display: inline;
+}
+.icon{
+  margin: 20px;
+  display: inline;
+}
 .content{
   background-color: #e0acd5;
   width: 100%;
@@ -59,18 +68,33 @@ shirt #c1e0f7
   text-align: center;
   color: #3993dd;
   padding-top: 20px;
-  height: 1250px;
+  height: 1550px;
+}
+.content h1 {
+  font-size: 50px;
 }
 .project{
   /*background-color: #a4def9;*/
   width: 90%;
   margin: 5%;
-  height: 500px;
+  height: 600px;
+}
+.project_desc{
+  margin-top: 20px;
 }
 .project p {
   font-weight: bold;
 }
 .contact {
+  padding-top: 20px;
   background-color: #97f9f9;
-  height: 500px;
+  height: 600px;
+}
+.contact-block{
+  display: inline-block;
+  margin: 20px;
+}
+.mailform{
+  background-color: red;
+  display: block;
 }

@@ -3,8 +3,12 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link rel="stylesheet" href="../static/css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Leila Adel Portfolio</title>
   </head>
   <body>
@@ -19,20 +23,63 @@
       <h1>My Name is Leila.</h1>
       <div class="intro">
         <p>I am a Web Developer based in San Jose</p>
-        <a class="btn btn-social-icon btn-twitter">
-          <span class="fa fa-twitter"></span>
-        </a>
+          <div class="icons">
+          <div class="icon">
+            <a class="fa fa-github" href="https://github.com/leilaadel" style="font-size:48px;">
+            </a>
+          </div>
+          <div class="icon">
+            <a class="fa fa-linkedin" href="https://www.linkedin.com/in/leilaadel/" style="font-size:48px;">
+            </a>
+          </div>
+        </div>
       </div>
     </div>
     <div class="content">
       <h1>Portfolio</h1>
       <div class="project">
-        <h2>State Park</h2>
+        <h2>Band Website</h2>
         <div class="project_image">
-           <img src="https://images.pexels.com/photos/338936/pexels-photo-338936.jpeg?auto=compress&cs=tinysrgb&h=350" alt="forest">
+           <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+              <div class="item active">
+                <img src="https://i.imgur.com/M34PuS5.png" alt="home page" height="60%" width="100%">
+                <div class="carousel-caption">
+                </div>
+              </div>
+
+              <div class="item">
+                <img src="https://i.imgur.com/hHcnu2B.png" alt="map" height="60%" width="100%">
+                <div class="carousel-caption">
+                </div>
+              </div>
+
+              <div class="item">
+                <img src="https://imgur.com/z9fCquq.png" alt="social" height="60%" width="100%">
+                <div class="carousel-caption">
+                </div>
+              </div>
+            </div>
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
         </div>
         <div class="project_desc">
-          <p>A website tailored for the music group State Park</p>
+          <p>A sample band website</p>
         </div>
       </div>
       <div class="project">
@@ -45,6 +92,36 @@
       </div>
       <div class="contact">
         <h1>Contact</h1>
+        <h3>Feel free to message me below!</h3>
+        <div class="icons">
+        <div class="icon">
+          <a class="fa fa-github" href="https://github.com/leilaadel" style="font-size:48px;">
+          </a>
+        </div>
+        <div class="icon">
+          <a class="fa fa-linkedin" href="https://www.linkedin.com/in/leilaadel/" style="font-size:48px;">
+          </a>
+        </div>
+      </div>
+      <div class="contact-block">
+        <i class="fa fa-mobile" style="font-size:50px;"></i>
+        <p>(858)414-7545</p>
+      </div>
+      <div class="contact-block">
+        <i class="fa fa-send" style="font-size:40px;"></i>
+        <p>Leilaadel96@gmail.com</p>
+      </div>
+      <div class="mailform">
+        <form action="mailto:leilaadel96@gmail.com" method="post" enctype="text/plain">
+          Name:<br>
+          <input type="text" name="name"><br>
+          E-mail:<br>
+          <input type="text" name="mail"><br>
+          Comment:<br>
+          <input type="text" name="comment" size="50"><br><br>
+          <input type="submit" value="Send">
+          <input type="reset" value="Reset">
+        </form>
       </div>
     </div>
   </div>
