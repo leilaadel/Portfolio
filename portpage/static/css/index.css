@@ -1,3 +1,11 @@
+/* color reference
+pink #e0acd5
+periwinkle #3993dd
+ice #97f9f9
+lavender #a4def9
+shirt #c1e0f7
+*/
+
 /* Place the navbar at the bottom of the page, and make it stick */
 .navbar {
     background-color: #c1e0f7;
@@ -43,4 +51,26 @@
 .intro{
   margin-top: 20px;
   font-size: 20px;
+}
+.content{
+  background-color: #e0acd5;
+  width: 100%;
+  padding-bottom: 20px;
+  text-align: center;
+  color: #3993dd;
+  padding-top: 20px;
+  height: 1250px;
+}
+.project{
+  /*background-color: #a4def9;*/
+  width: 90%;
+  margin: 5%;
+  height: 500px;
+}
+.project p {
+  font-weight: bold;
+}
+.contact {
+  background-color: #97f9f9;
+  height: 500px;
 }
