@@ -58,8 +58,15 @@ shirt #c1e0f7
   display: inline;
 }
 .icon{
-  margin: 20px;
   display: inline;
+  margin: auto;
+  padding: 50px;
+  padding-right: 75px;
+}
+#myCarousel{
+  width: 800px;
+  height: auto;
+  margin: auto;
 }
 .content{
   background-color: #e0acd5;
@@ -95,6 +102,10 @@ shirt #c1e0f7
   margin: 20px;
 }
 .mailform{
-  background-color: red;
+  background-color: #a4def9;
   display: block;
+  width: 400px;
+  margin: auto;
+  border-radius: 10px;
+  padding: 10px;
 }
