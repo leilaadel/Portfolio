@@ -5,7 +5,12 @@ ice #97f9f9
 lavender #a4def9
 shirt #c1e0f7
 */
-
+/*new color reference
+dark blue: #08415c
+red pink: #cc2936
+pink: #ebbab9
+light blue: #388697
+green: #b5ffe1
 /* Place the navbar at the bottom of the page, and make it stick */
 .navbar {
     background-color: #c1e0f7;
@@ -68,6 +73,11 @@ shirt #c1e0f7
   height: auto;
   margin: auto;
 }
+#myCarousel1{
+  width: 800px;
+  height: auto;
+  margin: auto;
+}
 .content{
   background-color: #e0acd5;
   width: 100%;
@@ -82,9 +92,7 @@ shirt #c1e0f7
 }
 .project{
   /*background-color: #a4def9;*/
-  width: 90%;
-  margin: 5%;
-  height: 520px;
+  margin-bottom: 30px;
 }
 .project_desc{
   margin-top: 20px;
