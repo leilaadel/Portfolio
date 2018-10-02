@@ -58,12 +58,15 @@ green: #b5ffe1
   font-size: 20px;
 }
 .icons a:hover{
-  color: #ebbab9;
+  color: #debc1e;
   text-decoration: none;
 }
 .icon{
   display: inline;
   padding: 20px 15px;
+}
+.icons a{
+  color: #664c43;
 }
 #myCarousel{
   width: 800px;
