@@ -11,7 +11,12 @@ red pink: #cc2936
 pink: #ebbab9
 light blue: #388697
 green: #b5ffe1
-/* Place the navbar at the bottom of the page, and make it stick */
+/* get about me section to be the dark blue background
+   position photo  on right hand side of page*/
+
+.page{
+  background-color: #08415c;
+}
 .navbar {
     background-color: #c1e0f7;
     overflow: hidden;
@@ -118,6 +123,12 @@ green: #b5ffe1
   font-weight: bold;
 }
 .project1 p {
+  font-weight: bold;
+}
+.about_me {
+  background-color: red;
+}
+.about_text p {
   font-weight: bold;
 }
 .contact {
