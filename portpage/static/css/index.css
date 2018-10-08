@@ -13,7 +13,6 @@ light blue: #388697
 green: #b5ffe1
 /* get about me section to be the dark blue background
    position photo  on right hand side of page*/
-
 .page{
   background-color: #08415c;
 }
@@ -90,7 +89,7 @@ green: #b5ffe1
   text-align: center;
   color: #dbb608;
   padding-top: 20px;
-  height: 1600px;
+  /* height: 1600px; */
 }
 .content h1 {
   font-size: 50px;
@@ -126,15 +125,44 @@ green: #b5ffe1
   font-weight: bold;
 }
 .about_me {
-  background-color: red;
+  background-color: #08415c;
+  padding-bottom: 20px;
+  /* display: inline-block; */
+}
+.about_me h1 {
+  margin: 0px;
+  padding: 0px;
 }
 .about_text p {
   font-weight: bold;
+  margin-left: 40px;
+}
+.about_pic{
+  /* display: inline; */
+}
+.about_box{
+  display: inline;
+}
+/* Create two equal columns that floats next to each other */
+.column {
+    width: 50%;
+    padding: 10px;
+    margin: auto;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 .contact {
   /* padding-top: 20px; */
   background-color: #08415c;
   /* padding-bottom: 50px; */
+}
+.contact h1{
+  margin: 0px;
 }
 .contact-block{
   display: inline-block;
