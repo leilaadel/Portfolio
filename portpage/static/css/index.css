@@ -112,7 +112,7 @@ green: #b5ffe1
   margin: auto;
   margin-bottom: 30px;
   padding-top: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 40px;
   color: #debc1e;
 }
 .project_desc{
@@ -126,7 +126,7 @@ green: #b5ffe1
 }
 .about_me {
   background-color: #08415c;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
   /* display: inline-block; */
 }
 .about_me h1 {
