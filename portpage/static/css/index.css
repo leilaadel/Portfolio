@@ -16,7 +16,7 @@ green: #b5ffe1
 .page{
   background-color: #08415c;
 }
-.navbar {
+/* .navbar {
     background-color: #c1e0f7;
     overflow: hidden;
     position: fixed;
@@ -25,7 +25,7 @@ green: #b5ffe1
 }
 
 /* Style the links inside the navigation bar */
-.navbar a {
+/* .navbar a {
     float: left;
     display: block;
     color: Black;
@@ -33,25 +33,25 @@ green: #b5ffe1
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-}
+} */
 
 /* Change the color of links on hover */
-.navbar a:hover {
+/* .navbar a:hover {
     background-color: #cc2936;
     color: black;
-}
+} */
 
 /* Add a color to the active/current link */
-.navbar a.active {
+/* .navbar a.active {
     background-color: #cc2936;
     color: white;
-}
+} */
 .header{
   text-align: center;
   padding-top: 260px;
   color: #dbb608;
   background-color: #08415c;
-  width: 100%;
+  /* width: 100%; */
   height: 800px;
 }
 .header h1 {
@@ -84,7 +84,7 @@ green: #b5ffe1
 }
 .content{
   background-color: #08415c;
-  width: 100%;
+  /* width: 100%; */
   padding-bottom: 20px;
   text-align: center;
   color: #dbb608;
@@ -149,7 +149,9 @@ green: #b5ffe1
     padding: 10px;
     margin: auto;
 }
-
+.row{
+  width: 98%;
+}
 /* Clear floats after the columns */
 .row:after {
     content: "";
@@ -171,6 +173,7 @@ green: #b5ffe1
   /*background-color: #cc2936;*/
   display: block;
   margin: auto;
+  color: black;
   /* margin-top: 30px; */
   /* border-radius: 10px; */
   /* padding: 20px; */
@@ -200,7 +203,7 @@ body {
 
 .container {
   max-width: 400px;
-  width: 100%;
+  /* width: 100%; */
   margin: 0 auto;
   position: relative;
 }
